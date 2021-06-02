@@ -1,9 +1,7 @@
 <template>
-
-<div class="wrapper">
         <header class="lg:px-16 px-6 bg-transparent flex flex-wrap items-center lg:py-0 py-2">
              <div class="flex-1 flex justify-between items center" id="push">
-                 <nuxt-link to="#"><img src="http://images.pexels.com/lib/api/pexels-white.png" alt="none" width="120px" height="130px" class="logo"></nuxt-link>
+                 <nuxt-link to="#"><img src="http://images.pexels.com/lib/api/pexels-white.png" alt="none" width="110px" height="120px" class="logo"></nuxt-link>
 
              <label for="menu-toggle" class="cursor-pointer lg:hidden block">
                  
@@ -27,19 +25,19 @@
              <input type="checkbox" class="hidden" id="menu-toggle">
 
             <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
-              <nav>
+              <nav class="text-white leading-tight font-weight: 900;">
                 <ul class="lg:flex items-center justify-between text-base text-grey-700 pt-4 lg:pt-0" id="navR">
-                    <li><nuxt-link to="#" class="lg:p-4 py3 px-0 block  border-transparent hover:text-gray-400">Explore</nuxt-link></li> 
-                    <li><nuxt-link to="#" class="lg:p-4 py3 px-0 block  border-transparent hover:text-gray-400">License</nuxt-link></li>
-                    <li><nuxt-link to="#" class="lg:p-4 py3 px-0 block  border-transparent hover:text-gray-400">Upload</nuxt-link></li>
-                    <li><nuxt-link to="#" class="lg:p-4 py3 px-0 block  border-transparent hover:text-gray-400">...</nuxt-link></li>
-                    <li><nuxt-link to="#" class="lg:p-4 py3 px-0 block  border-transparent hover:text-gray-400"><button class="bg-green-700 active:bg-green-800 focus:ring-2 focus:ring-opacity-75; py-2 px-6 text-white font-bold">Join</button></nuxt-link></li>
+                    <li><nuxt-link to="#" class="lg:p-5 py3 px-0 block  border-transparent hover:text-gray-400">Explore</nuxt-link></li> 
+                    <li><nuxt-link to="#" class="lg:p-5 py3 px-0 block  border-transparent hover:text-gray-400">License</nuxt-link></li>
+                    <li><nuxt-link to="#" class="lg:p-5 py3 px-0 block  border-transparent hover:text-gray-400">Upload</nuxt-link></li>
+                    <li><nuxt-link to="#" class="lg:p-5 py3 px-0 block  border-transparent hover:text-gray-400 font-bold leading-tight">...</nuxt-link></li>
+                    <li><nuxt-link to="#" class="lg:p-5 py3 px-0 block  border-transparent hover:text-gray-400"><button class="bg-green-700 active:bg-green-800 focus:ring-2 focus:ring-opacity-75; py-2 px-6 text-white font-bold">Join</button></nuxt-link></li>
                 </ul>
                 </nav>
             </div>
              </div>
              </header>
-             </div>
+             
 </template>
 
 <script>
@@ -50,26 +48,18 @@
 
 <style scoped>
 
-.wrapper{
-     background-image: url('~assets/nav.png');
-     background-size: cover;
-     background-repeat: no-repeat;
-     width: 100%;
-     height: 500px;  
- }
+
 
 .logo{
     position: absolute;
-    top: 2.1vh
+    top: 2.1vh;
+    left: 2.5vh  !important;
 }
-/* #push{
-    position: absolute;
-    right: 10vh;
-} */
 
 #navR{
     position: relative !important;
     left: 10vh  !important;
+    margin-right: 1rem;
 }
 
 #ham{

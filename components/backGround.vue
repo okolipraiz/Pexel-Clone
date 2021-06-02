@@ -1,10 +1,10 @@
 <template>
-    <div class="px-4">
-   <div class="max-w-3xl bg white rounded-lg mx-auto my-16 p-16">
-       <h1 class="text-2xl font-medium mb-2">Lets Build Heaven on Earth</h1>
-       <h2 class="font-medium text-sm text-black-400 mb-4 tracking-wide">Responsive Navbar</h2>
-       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem sed neque voluptatem aut? Sapiente minus consequuntur commodi quis, in nostrum exercitationem aliquam veniam non pariatur, debitis eveniet aperiam quae quisquam.
-   </div>
+    <div class="px-4 " >
+   <div class="max-w-3xl text-white rounded-lg mx-auto my-20 p-16">
+       <h1 class="text-4xl font-extrabold">The best free stock photos & videos<br> shared by talented creators.</h1>
+        <input type="text" placeholder="Search for free photos and videos">
+       </div>
+      
     </div>
 </template>
 
@@ -15,5 +15,23 @@
 </script>
 
 <style scoped>
+.text{
+    font-size: 36px;
+    line-height: 48px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
 
+input{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: #000;
+    padding-left: 15px;
+}
 </style>
