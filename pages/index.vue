@@ -5,11 +5,24 @@
        <span class="text-emerald-800">NUXt</span>JS Introduction
         </div>
         </div>
+
+
+        <ImageContent/>
     </div>
 </template>
 
 <script>
-export default {}
+import ImageContent from './ImageContent'
+export default {
+  components: {
+  ImageContent
+},
+  data(){
+    return{
+
+    }
+  }
+}
 </script>
 
 <style>
