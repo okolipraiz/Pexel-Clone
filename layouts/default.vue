@@ -1,6 +1,7 @@
 <template>
   <div>
    <AppBar />
+   <backGround />
     <Nuxt />
   </div>
 </template>
