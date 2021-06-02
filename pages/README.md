@@ -1,6 +1,3 @@
-## Pexels API key: 
-# 563492ad6f91700001000001ef12a9cf83974888b31ebfc2bd14aba7
-
 
 # PAGES
 
