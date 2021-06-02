@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import ImageContent from './ImageContent'
+import ImageContent from '../components/ImageContent'
 export default {
   components: {
   ImageContent
