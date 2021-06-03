@@ -1,7 +1,7 @@
 <template>
         <header class="lg:px-16 px-6 bg-transparent flex flex-wrap items-center lg:py-0 py-2">
              <div class="flex-1 flex justify-between items center" id="push">
-                 <nuxt-link to="#"><img src="http://images.pexels.com/lib/api/pexels-white.png" alt="none" width="110px" height="120px" class="logo"></nuxt-link>
+                 <nuxt-link to="#"><img src="http://images.pexels.com/lib/api/pexels-white.png" alt="none" width="110px" height="120px" class="logo border-transparent hover:gray-400"></nuxt-link>
 
              <label for="menu-toggle" class="cursor-pointer lg:hidden block">
                  

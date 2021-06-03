@@ -1,6 +1,6 @@
 <template>
   
-    <div class="section font-sans">
+    <div class="section font-sans bg-opacity-75">
    <AppBar />
    <backGround />
     <Nuxt />
@@ -12,7 +12,7 @@
 <style>
 .section{
      background-image: url('https://images.pexels.com/photos/7400269/pexels-photo-7400269.jpeg?auto=compress&bri=-5&crop=focalpoint&cs=tinysrgb&fit=crop&fp-y=0.6&h=500&sharp=10&w=1400');
-     background-size: contain;
+     background-size: cover;
      background-repeat: no-repeat;
      width: 100%;
      height: 500px;
