@@ -1,18 +1,53 @@
 ﻿<template>
     <div class="images">
 
-<h1><br>
+ <div class="grid grid-flow-col grid-rows-5 gap-8">
+        <div v-for="result in imageResults" :key="result.id">
+          <img :src="result.src.large" width="100%" />
 
-DONT TOUCH THIS NIGGA
-</h1>
-
-
-
-<div class="grid grid-cols-3 gap-4">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
+          {{result.id}}
+        </div>
       </div>
 
     </div>
 </template>
+
+<script>
+// import func from 'vue-editor-bridge'
+export default {
+  data(){
+    return{
+      // API results array
+        imageResults: [],
+        test: 'fff'
+    }
+  },
+   methods: {
+
+       getApiData: function(){
+         console.log('getting')
+        fetch(`https://api.pexels.com/v1/search?query=random&orientation=portrait`,{
+      headers: {
+        Authorization: "563492ad6f91700001000001ef12a9cf83974888b31ebfc2bd14aba7"
+      }
+    })
+       .then(resp => {
+         return resp.json()
+       })
+       .then(data => {
+         console.log(data.photos)
+         console.log(data)
+            this.imageResults = data.photos
+        //     this.resultsData = data
+        //  console.log(this.imageResults)
+        //  console.log(this.resultsData)
+       })
+        },
+        
+      },
+      created() {
+        // call API
+          this.getApiData()
+        }
+}
+</script>

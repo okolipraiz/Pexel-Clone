@@ -1,14 +1,11 @@
 <template>
 
   <div class="wrapper mx-auto">
-    <div class="card">
-      <div class="title">
-       <span class="text-emerald-800">NUXt</span>JS Introduction
-        </div>
-        </div>
 
-
+<div class="p-4">
         <ImageContent/>
+
+</div>
     </div>
 </template>
 
