@@ -12,7 +12,7 @@
                     <li><nuxt-link to="#" class="lg:p-4 py3 px-0 block   hover:text-gray-400 font-bold leading-tight">Discover</nuxt-link></li>
                     <li><nuxt-link to="#" class="lg:p-4 py3 px-0 block   hover:text-gray-400 font-bold leading-tight">Videos</nuxt-link></li>
                     <li><nuxt-link to="#" class="lg:p-4 py3 px-0 block   hover:text-gray-400 font-bold leading-tight">LeaderBoard</nuxt-link></li>
-                    <li><nuxt-link to="#" class="lg:p-4 py3 px-0 block   hover:text-gray-400 font-bold leading-tight">Challenges</nuxt-link></li>
+                    <li><nuxt-link to="#" class="lg:p-4 py3 px-0 block   hover:text-gray-400 font-bold leading-tight">Challenge</nuxt-link></li>
                 </ul>
                 </nav>
             </div>
