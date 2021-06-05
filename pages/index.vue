@@ -1,19 +1,26 @@
 <template>
 
   <div class="wrapper mx-auto">
+    <div class="card">
+      <div class="title">
+       <span class="text-emerald-800">NUXt</span>JS Introduction
+        </div>
+        </div>
 
-<div class="p-4">
+
         <ImageContent/>
-
-</div>
+        <Observer/>
     </div>
 </template>
 
 <script>
-import ImageContent from '../components/ImageContent'
+import ImageContent from '../components/ImageContent';
+
+
+
 export default {
   components: {
-  ImageContent
+  ImageContent,
 },
   data(){
     return{
@@ -22,6 +29,10 @@ export default {
   }
 }
 </script>
+
+
+
+
 
 <style>
 /* Sample `apply` at-rules with Tailwind CSS

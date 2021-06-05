@@ -1,11 +1,11 @@
 <template>
         <header class="lg:px-16 px-6 bg-transparent flex flex-wrap items-center lg:py-0 py-2">
              <div class="flex-1 flex justify-between items-center">
-                 <nuxt-link to="#"><img src="http://images.pexels.com/lib/api/pexels-white.png" alt="none" width="100px" height="110px" class="logo border-transparent"></nuxt-link>
+                 <nuxt-link to="#"><img src="http://images.pexels.com/lib/api/pexels-white.png" alt="none" width="100px" height="100px" class="logo border-transparent"></nuxt-link>
              </div>
              <label for="menu-toggle" class="cursor-pointer lg:hidden block">
                  
-            <img class="fill-current text-gray-900" src="https://mpng.subpng.com/20180422/uve/kisspng-hamburger-button-computer-icons-menu-clip-art-5adcc45cad2da2.9774904315244176287094.jpg" id="ham"  alt="none" width="23" height="20" viewBox= "0 0 20 20" /> 
+            <img class="fill-current text-gray-900" src="https://mpng.subpng.com/20180422/uve/kisspng-hamburger-button-computer-icons-menu-clip-art-5adcc45cad2da2.9774904315244176287094.jpg" id="ham"  alt="none" width="20" height="15" viewBox= "0 0 20 20" /> 
              <title>menu</title>
              </label>
              
@@ -36,7 +36,15 @@
 
 <style scoped>
 
-
+/* header{
+    position: fixed;
+    display: flex !important;
+    justify-content:space-between !important;
+    align-items: space-between !important;
+    height: 20px;
+    text-align: end;
+    left: 20vh;
+} */
 
 .logo{
     position: absolute;
@@ -60,7 +68,7 @@
 
 #ham{
     position: relative;
-    top: 2.5vh;
+    top: 2vh;
     background-color: transparent;
     filter: invert(var(--value, 100%)); --value:100%;
     z-index: 9999;
@@ -70,6 +78,7 @@
     display: block;
     cursor: pointer !important;
     background: #444;
+    z-index: 99999;
 }
 
 button{

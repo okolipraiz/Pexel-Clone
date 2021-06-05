@@ -3,7 +3,9 @@
     <div class="background-image font-sans">
    <AppBar />
    <BackGround />
+  
     <Nuxt />
+     <ImageContent/>
     </div>
     
 
